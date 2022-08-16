@@ -98,7 +98,7 @@ def callback(call):
                 c_sure = 1
             else:
                 bot.send_message(call.message.chat.id, "Let's begin then")
-                filepath = r"C:\Users\cucol\Pictures\Riddle1.jpg"
+                filepath = r"Riddle_Photos/Riddle1.jpg"
                 photo = open(filepath, 'rb')
                 bot.send_photo(call.message.chat.id, photo)
                 markup = create_actions_markup()
