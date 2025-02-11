@@ -20,3 +20,4 @@ def solver_type1(arr):
             b = int(str(int(arr[5][x]) * int(arr[4][x])) * int(arr[3][x]))
         res += str(a + b)
     return res
+
